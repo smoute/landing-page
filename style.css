@@ -90,7 +90,8 @@ max-width: 500px;
 }
 
 .content-right img {
-height: 300px
+height: 300px;
+width:fit-content;
 }
 
 /* INFO*/
@@ -117,9 +118,8 @@ margin-bottom: 20px;
 .illustrations {
 display:flex;
 flex-direction: row;
-align-items: center;
-justify-content: center;
 gap:35px;
+
 
 
 }
@@ -129,10 +129,9 @@ gap:35px;
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     align-content: center;
     font-weight: bold;
-    width:160px
+    width:160px;
 
 }
 
@@ -165,7 +164,6 @@ padding-bottom: 80px;
 {
 font-style:italic;
 font-size: 30px;
-width: 800px;
 padding-bottom: 30px;
 }
 
